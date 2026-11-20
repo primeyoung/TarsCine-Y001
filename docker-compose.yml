@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  tarscine-y001:
+    image: tarscine-y001:latest
+    container_name: tarscine-y001
+    restart: unless-stopped
+    ports:
+      - "8321:3000"   # Web 访问端口 (支持 PC/手机浏览器及 PWA 添加到主屏幕)
+      - "8322:8000"   # 后端 FastAPI 接口端口
+    environment:
+      - TZ=Asia/Shanghai
+      - PUID=1000     # 建议替换为 NAS 实际用户 UID，防止无权限读写文件
+      - PGID=1000     # 建议替换为 NAS 实际用户 GID
+    volumes:
+      # 持久化存储 SQLite 数据库、机器人配置与主题设置
+      - ./config:/config
+      # 统一映射父级媒体目录，确保 downloads 与 movies 在同一文件系统内实现秒级硬链接
+      # 建议 NAS 宿主机目录结构：
+      # /你的NAS存储池/Media/downloads  (qBittorrent/Aria2 下载目录)
+      # /你的NAS存储池/Media/movies     (极空间影视/飞牛影视/Jellyfin 刮削目录)
+      - /path/to/your/nas/Media:/media
