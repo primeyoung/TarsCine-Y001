@@ -29,7 +29,7 @@
 系统采用**前后端合并单容器交付**架构，底层通过 **SSE（Server-Sent Events）** 实时向前端流式推送多智能体的思考与协作状态。
 
 ### 📊 工作逻辑与协作时序图
-> **![TarsCine-Y001 工作逻辑图](docs/images/work_pricture.png)**  
+ **![TarsCine-Y001 工作逻辑图](docs/images/work_pricture.png)**  
 
 
 ### 🧩 核心分层与智能体矩阵
