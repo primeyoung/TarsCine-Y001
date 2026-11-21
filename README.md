@@ -29,7 +29,7 @@
 系统采用**前后端合并单容器交付**架构，底层通过 **SSE（Server-Sent Events）** 实时向前端流式推送多智能体的思考与协作状态。
 
 ### 📊 工作逻辑与协作时序图
-> **![TarsCine-Y001 工作逻辑图](Docs/images/architecture-flow.jpg)**  
+> **![TarsCine-Y001 工作逻辑图](docs/images/architecture-flow.jpg)**  
 > *建议尺寸：宽 1200px，推荐使用透明背景 PNG 或适配暗色模式的 SVG，放置路径示例：`![工作逻辑图](docs/workflow.png)`*
 
 ### 🧩 核心分层与智能体矩阵
