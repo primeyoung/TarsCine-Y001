@@ -30,7 +30,7 @@
 
 ### 📊 工作逻辑与协作时序图
 > **![TarsCine-Y001 工作逻辑图](docs/images/architecture-flow.jpg)**  
-> *建议尺寸：宽 1200px，推荐使用透明背景 PNG 或适配暗色模式的 SVG，放置路径示例：`![工作逻辑图](docs/workflow.png)`*
+
 
 ### 🧩 核心分层与智能体矩阵
 
