@@ -5,10 +5,7 @@
 **Your Multi-Agent AI Cinema Concierge for NAS**  
 *灵感源自《星际穿越》TARS 机器人 × Apple Liquid Glass 空间视觉美学*
 
-[![License](https://shields.io)](LICENSE)
-[![Docker](https://shields.io)](#-nas-docker-快速部署)
-[![Platform](https://shields.io)](#-技术栈与项目结构)
-[![PWA](https://shields.io)](#-核心特性)
+`📄 MIT License` · `🐳 Docker Multi-Stage` · `💻 amd64 | arm64` · `📱 PWA Ready`
 
 [项目简介](#-项目简介) • [系统架构](#-系统架构与工作流) • [核心特性](#-核心特性) • [快速部署](#-nas-docker-快速部署) • [开发路线](#-开发路线图)
 
